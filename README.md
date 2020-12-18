@@ -22,7 +22,7 @@
 4. In addition to creating the genesis block in our constructor, we’ll also flesh out the methods for `new_block()`
 5 Next, we hash out the  `new_transaction()` method
 6. And then the `hash()`
-
+7. Finally, add the `last_block()` method
 
 
 ### Example of a block
