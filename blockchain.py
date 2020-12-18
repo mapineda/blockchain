@@ -1,3 +1,11 @@
+import hashlib
+import json
+from textwrap import dedent
+from time import time
+from uuid import uuid4
+
+from flask import Flask
+
 class Blockchain(object):
     def __init__(self):
         self.chain = []
@@ -91,7 +99,7 @@ class Blockchain(object):
         """
 
         guess = f'{last_proof}{proof}'.encode()
-        
+
         guess_hash = hashlib.sha256(guess).hexdigest()
 
         return guess_hash[:4] == "0000"

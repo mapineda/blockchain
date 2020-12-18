@@ -29,6 +29,9 @@
 8. create proof of work algorith
 9. validate the proof
 
+## Flask Blockchain as an API
+
+10.
 
 ### Example of a block
 
