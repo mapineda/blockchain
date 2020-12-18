@@ -17,8 +17,8 @@
 1. Create generator (branch lesson_001)
 2. Add new transaction (branch lesson_002)
 - After `new_transaction()` adds a transaction to the list, it returns the index of the block which the transaction will be added to—the next one to be mined. This will be useful to the user submitting the transaction.
-
-
+3. Create new genesis block (branch lesson_003)
+- When our object is instantiated we’ll need to seed it with a genesis block — a block with no preceeding blocks. We’ll also need to add a “proof” param to the genesis block which is the result of mining (POW, or proof of work).
 
 
 ### Example of a block
