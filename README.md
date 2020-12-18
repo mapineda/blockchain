@@ -26,6 +26,9 @@
 
 ## Create Proof of Work Algorithm
 
+8. create proof of work algorith
+9. validate the proof
+
 
 ### Example of a block
 
