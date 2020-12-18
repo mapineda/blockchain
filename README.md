@@ -14,6 +14,13 @@
 
 ## Create
 
+1. Create generator (branch lesson_001)
+2. Add new transaction (branch lesson_002)
+- After `new_transaction()` adds a transaction to the list, it returns the index of the block which the transaction will be added to—the next one to be mined. This will be useful to the user submitting the transaction.
+
+
+
+
 ### Example of a block
 
 ```
