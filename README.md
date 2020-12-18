@@ -12,7 +12,7 @@
 2. `mkvirtualenv blockchain --python=python` # create virtual env 
 3. `pip install flask request` # install requirements
 
-## Create
+## Create Blockchain Object
 
 1. Create generator (branch lesson_001)
 2. Add new transaction (branch lesson_002)
@@ -23,6 +23,8 @@
 5 Next, we hash out the  `new_transaction()` method
 6. And then the `hash()`
 7. Finally, add the `last_block()` method
+
+## Create Proof of Work Algorithm
 
 
 ### Example of a block
