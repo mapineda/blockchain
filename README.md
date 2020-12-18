@@ -20,7 +20,9 @@
 3. Create new genesis block (branch lesson_003)
 - When our object is instantiated we’ll need to seed it with a genesis block — a block with no preceeding blocks. We’ll also need to add a “proof” param to the genesis block which is the result of mining (POW, or proof of work).
 4. In addition to creating the genesis block in our constructor, we’ll also flesh out the methods for `new_block()`
-5, `new_transaction()` and `hash()`:
+5 Next, we hash out the  `new_transaction()` method
+6. And then the `hash()`
+
 
 
 ### Example of a block
