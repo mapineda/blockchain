@@ -29,13 +29,19 @@
 8. create proof of work algorith
 9. validate the proof
 
-## Flask Blockchain as an API
+## Consensus Network
 
 10.
 
 11.
 
+
+## Flask Blockchain as an API
+
+
+
 ### Example of a block
+
 
 ```
 block = {
